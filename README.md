@@ -3,6 +3,7 @@
 ## Overview
 
 **AI Presenter Suite** is a multi-component system designed to facilitate smart, gesture-based control and management of presentations, screen recordings, and video sharing. It leverages computer vision, hand gesture recognition, networked device communication, and a web-based video platform for seamless classroom or remote presentation experiences.
+![image](https://github.com/user-attachments/assets/eec024d7-dfd3-4521-953e-c10caebe4312)
 
 ---
 
@@ -14,6 +15,8 @@
 - **Web Video Platform:** Upload, browse, and stream recorded videos via a modern web interface.
 - **YouTube Downloader:** Download YouTube videos for offline use.
 - **Cross-Platform:** Components for Raspberry Pi, Windows, and web.
+
+![image](https://github.com/user-attachments/assets/2199df4c-7c6d-4533-9663-d0e44aa1dd2b)
 
 ---
 
@@ -96,6 +99,9 @@ pip install pynput flask flask-cors azure-storage-blob mediapipe opencv-python p
   ```
 - **Access:** Open [http://localhost:5000](http://localhost:5000) in your browser.
 
+![image](https://github.com/user-attachments/assets/8f47c7cb-f368-41db-a68d-a9697c204ac9)
+
+
 ### 4. YouTube Video Downloader
 
 - **Location:** `downvideoyoutube.py`
@@ -104,6 +110,11 @@ pip install pynput flask flask-cors azure-storage-blob mediapipe opencv-python p
   ```bash
   python downvideoyoutube.py
   ```
+
+![image](https://github.com/user-attachments/assets/67d50e9e-4415-42ea-a570-fecbb70d2275)
+
+
+![image](https://github.com/user-attachments/assets/7e4b6f94-18b4-4227-af89-e5d324252336)
 
 ---
 
@@ -167,43 +178,5 @@ Pull requests are welcome! For major changes, please open an issue first to disc
   - Pillow (PIL) for image processing.
   - Pygame for audio playback (in some components).
   - MSS for screen capture (in the sharescreen component).
-
----
-
-## Pushing to GitHub
-
-To push this project to GitHub, follow these steps:
-
-1. **Create a GitHub Repository:**
-   - Go to [GitHub](https://github.com/) and sign in.
-   - Click on the "+" icon in the top right corner and select "New repository."
-   - Name your repository (e.g., `AI_presenter`).
-   - Choose visibility (public or private).
-   - Click "Create repository."
-
-2. **Initialize Git in Your Project:**
-   - Open a terminal in your project directory.
-   - Run the following commands:
-     ```bash
-     git init
-     git add .
-     git commit -m "Initial commit"
-     ```
-
-3. **Link Your Local Repository to GitHub:**
-   - Copy the URL of your GitHub repository (e.g., `https://github.com/yourusername/AI_presenter.git`).
-   - Run the following command, replacing the URL with your repository URL:
-     ```bash
-     git remote add origin https://github.com/yourusername/AI_presenter.git
-     ```
-
-4. **Push Your Code to GitHub:**
-   - Run the following command to push your code to the `main` branch:
-     ```bash
-     git push -u origin main
-     ```
-
-5. **Verify on GitHub:**
-   - Go to your GitHub repository page to verify that your code has been pushed successfully.
 
 ---
